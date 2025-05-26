@@ -1,0 +1,60 @@
+[01-Apr-2025 10:53:22 Africa/Blantyre] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1354
+Stack trace:
+#0 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/secapita/lendy.secapital.co.ke/vendor/composer/ClassLoader.php(444): include('/home/secapita/...')
+#2 /home/secapita/lendy.secapital.co.ke/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/secapita/lendy.secapital.co.ke/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 11
+[01-Apr-2025 10:54:10 Africa/Blantyre] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1354
+Stack trace:
+#0 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/secapita/lendy.secapital.co.ke/vendor/composer/ClassLoader.php(444): include('/home/secapita/...')
+#2 /home/secapita/lendy.secapital.co.ke/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/secapita/lendy.secapital.co.ke/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 11
+[01-Apr-2025 10:54:17 Africa/Blantyre] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1354
+Stack trace:
+#0 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/secapita/lendy.secapital.co.ke/vendor/composer/ClassLoader.php(444): include('/home/secapita/...')
+#2 /home/secapita/lendy.secapital.co.ke/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/secapita/lendy.secapital.co.ke/index.php(51): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/secapita/lendy.secapital.co.ke/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 11
+[05-Apr-2025 16:58:57 UTC] PHP Warning:  require(/home/secapita/lendy.secapital.co.ke/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/secapita/lendy.secapital.co.ke/index.php on line 34
+[05-Apr-2025 16:58:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/secapita/lendy.secapital.co.ke/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/secapita/lendy.secapital.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/secapita/lendy.secapital.co.ke/index.php on line 34
+[05-Apr-2025 16:58:59 UTC] PHP Warning:  require(/home/secapita/lendy.secapital.co.ke/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/secapita/lendy.secapital.co.ke/index.php on line 34
+[05-Apr-2025 16:58:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/secapita/lendy.secapital.co.ke/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/secapita/lendy.secapital.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/secapita/lendy.secapital.co.ke/index.php on line 34
+[05-Apr-2025 16:59:45 UTC] PHP Warning:  require(/home/secapita/lendy.secapital.co.ke/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/secapita/lendy.secapital.co.ke/index.php on line 34
+[05-Apr-2025 16:59:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/secapita/lendy.secapital.co.ke/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/secapita/lendy.secapital.co.ke/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/secapita/lendy.secapital.co.ke/index.php on line 34
